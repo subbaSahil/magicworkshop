@@ -20,7 +20,11 @@ public class App {
 		WebElement contactUsButton = this.wait.until(ExpectedConditions.elementToBeClickable(this.locators.ContactUsButton));
 		contactUsButton.click();
 	}
-	public void contactUsFormSubmission(String email, String firstname, String lastname, String subject, String notes) {
+	public void contactUsFormSubmission(String email, String firstname, String lastname, String subject, String notes) throws InterruptedException {
+		
+		contactUsButtonFunctionality();
+		
+		Thread.sleep(3000);
 		WebElement emailInput = this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.locators.emailElement));
 		emailInput.sendKeys(email);
 		

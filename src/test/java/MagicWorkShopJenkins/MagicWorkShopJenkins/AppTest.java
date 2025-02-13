@@ -11,7 +11,7 @@ public class AppTest extends BaseTest{
 		app.contactUsButtonFunctionality();
 	}
 	@Test(priority = 2)
-	public void contactUsFormSubmission() {
+	public void contactUsFormSubmission() throws InterruptedException {
 		app = new App(driver,wait);
 		app.contactUsFormSubmission("sahil@sahil.com", "sahil", "subba", "subject", "textarea notes");;
 	}

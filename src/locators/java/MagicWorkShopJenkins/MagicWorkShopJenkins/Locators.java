@@ -3,7 +3,7 @@ package MagicWorkShopJenkins.MagicWorkShopJenkins;
 import org.openqa.selenium.By;
 
 public class Locators {
-	public By ContactUsButton = By.xpath("(//span[text()='CONTACT US']/parent::a)[1]");
+	public By ContactUsButton = By.xpath("(//span[text()='CONTACT US']/parent::a)[2]");
 	public By emailElement = By.xpath("//input[@data-brz-type='Email']");
 	public By firstNameElement = By.xpath("//input[@data-brz-label=\"First Name\"]");
 	public By lastNameElement = By.xpath("//input[@data-brz-label=\"Last Name\"]");
