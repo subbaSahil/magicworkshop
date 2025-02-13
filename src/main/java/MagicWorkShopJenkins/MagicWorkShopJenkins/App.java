@@ -45,4 +45,16 @@ public class App {
 	    // Use JavaScript to click the button as a last resort
 	    ((JavascriptExecutor) driver).executeScript("arguments[0].click();", submitButton);
 	}
+	public void projectEnggButtonFunctionality() {
+		WebElement contactUsButton = this.wait.until(ExpectedConditions.elementToBeClickable(this.locators.projectEnggButton));
+		contactUsButton.click();
+	}
+	public void coInventionButtonFunctionality() {
+		WebElement contactUsButton = this.wait.until(ExpectedConditions.elementToBeClickable(this.locators.coInventionButton));
+		contactUsButton.click();
+	}
+	public void incubationButtonFunctionality() {
+		WebElement contactUsButton = this.wait.until(ExpectedConditions.elementToBeClickable(this.locators.incubation));
+		contactUsButton.click();
+	}
 }
