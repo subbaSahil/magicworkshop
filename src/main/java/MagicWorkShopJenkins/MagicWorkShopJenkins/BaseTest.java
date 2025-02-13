@@ -1,7 +1,7 @@
 package MagicWorkShopJenkins.MagicWorkShopJenkins;
 import java.time.Duration;
 import org.openqa.selenium.WebDriver;
-
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
@@ -22,6 +22,8 @@ public class BaseTest {
     @BeforeMethod
     public void setup() throws InterruptedException {
         loadProperties(); // Load properties before setting up the driver
+        System.setProperty("webdriver.edge.driver", "C:\\Users\\SahilSubba\\Downloads\\edgeDriver\\msedgedriver.exe"); // Replace with the actual path
+
         driver = new EdgeDriver();
 //        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
         driver.get(properties.getProperty("URL"));
