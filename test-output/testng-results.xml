@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-13T14:14:19 IST" name="Suite" finished-at="2025-02-13T14:14:47 IST" duration-ms="27685">
+  <suite started-at="2025-02-13T14:30:42 IST" name="Suite" finished-at="2025-02-13T14:31:06 IST" duration-ms="23405">
     <groups>
     </groups>
-    <test started-at="2025-02-13T14:14:19 IST" name="Test" finished-at="2025-02-13T14:14:47 IST" duration-ms="27685">
+    <test started-at="2025-02-13T14:30:42 IST" name="Test" finished-at="2025-02-13T14:31:06 IST" duration-ms="23405">
       <class name="MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@21fd5faa]" started-at="2025-02-13T14:14:19 IST" name="setup" finished-at="2025-02-13T14:14:30 IST" duration-ms="10901" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@1a20270e]" started-at="2025-02-13T14:30:42 IST" name="setup" finished-at="2025-02-13T14:30:48 IST" duration-ms="5530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="contactUsButton()[pri:1, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@21fd5faa]" started-at="2025-02-13T14:14:30 IST" name="contactUsButton" finished-at="2025-02-13T14:14:30 IST" duration-ms="107" status="PASS">
+        <test-method signature="contactUsButton()[pri:1, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@1a20270e]" started-at="2025-02-13T14:30:48 IST" name="contactUsButton" finished-at="2025-02-13T14:30:48 IST" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUsButton -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@21fd5faa]" started-at="2025-02-13T14:14:30 IST" name="tearDown" finished-at="2025-02-13T14:14:34 IST" duration-ms="3757" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@1a20270e]" started-at="2025-02-13T14:30:48 IST" name="tearDown" finished-at="2025-02-13T14:30:52 IST" duration-ms="3803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@21fd5faa]" started-at="2025-02-13T14:14:34 IST" name="setup" finished-at="2025-02-13T14:14:40 IST" duration-ms="5588" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@1a20270e]" started-at="2025-02-13T14:30:52 IST" name="setup" finished-at="2025-02-13T14:30:58 IST" duration-ms="5594" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="contactUsFormSubmission()[pri:2, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@21fd5faa]" started-at="2025-02-13T14:14:40 IST" name="contactUsFormSubmission" finished-at="2025-02-13T14:14:43 IST" duration-ms="3478" status="PASS">
+        <test-method signature="contactUsFormSubmission()[pri:2, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@1a20270e]" started-at="2025-02-13T14:30:58 IST" name="contactUsFormSubmission" finished-at="2025-02-13T14:31:02 IST" duration-ms="4013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUsFormSubmission -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@21fd5faa]" started-at="2025-02-13T14:14:43 IST" name="tearDown" finished-at="2025-02-13T14:14:47 IST" duration-ms="3807" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@1a20270e]" started-at="2025-02-13T14:31:02 IST" name="tearDown" finished-at="2025-02-13T14:31:06 IST" duration-ms="4239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

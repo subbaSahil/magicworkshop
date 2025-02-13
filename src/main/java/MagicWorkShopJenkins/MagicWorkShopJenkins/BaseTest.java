@@ -1,10 +1,7 @@
 package MagicWorkShopJenkins.MagicWorkShopJenkins;
-
-
 import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
@@ -23,7 +20,7 @@ public class BaseTest {
 
     public Properties properties = new Properties();
 
-    @BeforeMethod
+    @BeforeClass
     public void setup() throws InterruptedException {
         loadProperties(); // Load properties before setting up the driver
         driver = new EdgeDriver();
@@ -43,7 +40,7 @@ public class BaseTest {
         }
     }
 
-    @AfterMethod
+    @AfterClass
     public void tearDown() throws InterruptedException {
         if (driver != null) {
             Thread.sleep(2000);
