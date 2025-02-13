@@ -2,6 +2,8 @@ package MagicWorkShopJenkins.MagicWorkShopJenkins;
 
 import org.testng.annotations.Test;
 
+import Helper.BaseTest;
+
 public class AppTest extends BaseTest{
 	private App app;
 	
