@@ -22,9 +22,9 @@ public class BaseTest {
     @BeforeMethod
     public void setup() throws InterruptedException {
         loadProperties(); // Load properties before setting up the driver
-        System.setProperty("webdriver.edge.driver", "C:\\Users\\SahilSubba\\Downloads\\edgeDriver\\msedgedriver.exe"); // Replace with the actual path
+//        System.setProperty("webdriver.edge.driver", "C:\\Users\\SahilSubba\\Downloads\\edgeDriver\\msedgedriver.exe"); // Replace with the actual path
 
-        driver = new EdgeDriver();
+        driver = new ChromeDriver();
 //        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
         driver.get(properties.getProperty("URL"));
         driver.manage().window().maximize();
