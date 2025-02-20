@@ -12,6 +12,14 @@ public class Locators {
 	public By submitButtonElement = By.xpath("//span[text()='Submit Message']/parent::button");
 	public By projectEnggButton = By.xpath("(//span[text()='PRODUCT ENGINEERING']/parent::a)[2]");
 	public By coInventionButton = By.xpath("(//span[text()='CO-INNOVATION']/parent::a)[2]");
-	public By incubation  = By.xpath("(//span[text()='INCUBATION']/parent::a)[2]");
-	public By magicHealthVideo = By.xpath("//div[@data-src='https://www.youtube.com/embed/bt7-5-801jg?autoplay=1&controls=1&start=0&end=0&modestbranding=0&wmode=transparent&enablejsapi=1&loop=0&rel=0&mute=0']");
+	public By incubation  = By.xpath("(//span[text()='INCUBATION']/parent::a)[2]");	
+	public By magicDriverVideo = By.xpath(
+	"//div[@data-src='https://www.youtube.com/embed/o_krlurLeTk?autoplay=1&controls=1&start=0&end=0&modestbranding=0&wmode=transparent&enablejsapi=1&loop=0&rel=0&mute=0']/following-sibling::div/child::div");
+	
+	public By magicEdxCVideo = By.xpath(
+	"//div[@data-src='https://www.youtube.com/embed/D5ABfe1SEo0?autoplay=1&controls=1&start=0&end=0&modestbranding=0&wmode=transparent&enablejsapi=1&loop=0&rel=0&mute=0']/following-sibling::div/child::div");
+	
+	public By magicGovernce = By.xpath("//div[@data-src=\"https://www.youtube.com/embed/7LmiIfX0Css?autoplay=1&controls=1&start=0&end=0&modestbranding=0&wmode=transparent&enablejsapi=1&loop=0&rel=0&mute=0\"]/following-sibling::div/child::div");
+	public By magicAiVideo = By.xpath("//div[@data-src=\"https://www.youtube.com/embed/CDlKJHD8A-E?autoplay=1&controls=1&start=0&end=0&modestbranding=0&wmode=transparent&enablejsapi=1&loop=0&rel=0&mute=0\"]/following-sibling::div/child::div");
+	public By magicHealthVideo = By.xpath("//div[@data-src=\"https://www.youtube.com/embed/bt7-5-801jg?autoplay=1&controls=1&start=0&end=0&modestbranding=0&wmode=transparent&enablejsapi=1&loop=0&rel=0&mute=0\"]/following-sibling::div/child::div");
 }

@@ -1,37 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-13T16:06:22 IST" name="Suite" finished-at="2025-02-13T16:06:44 IST" duration-ms="22777">
+  <suite started-at="2025-02-20T14:06:20 IST" name="Default suite" finished-at="2025-02-20T14:08:09 IST" duration-ms="109290">
     <groups>
     </groups>
-    <test started-at="2025-02-13T16:06:22 IST" name="Test" finished-at="2025-02-13T16:06:44 IST" duration-ms="22777">
+    <test started-at="2025-02-20T14:06:20 IST" name="Default test" finished-at="2025-02-20T14:08:09 IST" duration-ms="109290">
       <class name="MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@1a20270e]" started-at="2025-02-13T16:06:22 IST" name="setup" finished-at="2025-02-13T16:06:28 IST" duration-ms="6616" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:06:20 IST" name="setup" finished-at="2025-02-20T14:06:25 IST" duration-ms="5073" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="contactUsButton()[pri:1, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@1a20270e]" started-at="2025-02-13T16:06:28 IST" name="contactUsButton" finished-at="2025-02-13T16:06:28 IST" duration-ms="129" status="PASS">
+        <test-method signature="contactUsButton()[pri:1, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:06:25 IST" name="contactUsButton" finished-at="2025-02-20T14:06:25 IST" duration-ms="130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUsButton -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@1a20270e]" started-at="2025-02-13T16:06:28 IST" name="tearDown" finished-at="2025-02-13T16:06:32 IST" duration-ms="3845" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:06:25 IST" name="tearDown" finished-at="2025-02-20T14:06:29 IST" duration-ms="3760" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@1a20270e]" started-at="2025-02-13T16:06:32 IST" name="setup" finished-at="2025-02-13T16:06:37 IST" duration-ms="4968" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:06:29 IST" name="setup" finished-at="2025-02-20T14:06:34 IST" duration-ms="4724" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="contactUsFormSubmission()[pri:2, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@1a20270e]" started-at="2025-02-13T16:06:37 IST" name="contactUsFormSubmission" finished-at="2025-02-13T16:06:41 IST" duration-ms="3464" status="PASS">
+        <test-method signature="contactUsFormSubmission()[pri:2, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:06:34 IST" name="contactUsFormSubmission" finished-at="2025-02-20T14:06:37 IST" duration-ms="3598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUsFormSubmission -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@1a20270e]" started-at="2025-02-13T16:06:41 IST" name="tearDown" finished-at="2025-02-13T16:06:44 IST" duration-ms="3721" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:06:37 IST" name="tearDown" finished-at="2025-02-20T14:06:41 IST" duration-ms="3779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:06:41 IST" name="setup" finished-at="2025-02-20T14:06:46 IST" duration-ms="4667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="projectEnggButtonFunctionality()[pri:3, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:06:46 IST" name="projectEnggButtonFunctionality" finished-at="2025-02-20T14:06:46 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectEnggButtonFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:06:46 IST" name="tearDown" finished-at="2025-02-20T14:06:50 IST" duration-ms="3722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:06:50 IST" name="setup" finished-at="2025-02-20T14:06:54 IST" duration-ms="4610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="coInventionButtonFunctionality()[pri:4, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:06:54 IST" name="coInventionButtonFunctionality" finished-at="2025-02-20T14:06:54 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coInventionButtonFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:06:54 IST" name="tearDown" finished-at="2025-02-20T14:06:58 IST" duration-ms="3798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:06:58 IST" name="setup" finished-at="2025-02-20T14:07:03 IST" duration-ms="4729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="magicDriverVideo_07()[pri:5, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:07:03 IST" name="magicDriverVideo_07" finished-at="2025-02-20T14:07:04 IST" duration-ms="1232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- magicDriverVideo_07 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:07:04 IST" name="tearDown" finished-at="2025-02-20T14:07:08 IST" duration-ms="3852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:07:08 IST" name="setup" finished-at="2025-02-20T14:07:13 IST" duration-ms="4940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="magicEdxVideo_08()[pri:6, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:07:13 IST" name="magicEdxVideo_08" finished-at="2025-02-20T14:07:14 IST" duration-ms="1182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- magicEdxVideo_08 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:07:14 IST" name="tearDown" finished-at="2025-02-20T14:07:18 IST" duration-ms="3822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:07:18 IST" name="setup" finished-at="2025-02-20T14:07:23 IST" duration-ms="4750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="magicHealthVideo_10()[pri:7, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:07:23 IST" name="magicHealthVideo_10" finished-at="2025-02-20T14:07:24 IST" duration-ms="1235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- magicHealthVideo_10 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:07:24 IST" name="tearDown" finished-at="2025-02-20T14:07:28 IST" duration-ms="3782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:07:28 IST" name="setup" finished-at="2025-02-20T14:07:32 IST" duration-ms="4589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="magicAiVideo_11()[pri:8, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:07:32 IST" name="magicAiVideo_11" finished-at="2025-02-20T14:07:33 IST" duration-ms="1183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- magicAiVideo_11 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:07:33 IST" name="tearDown" finished-at="2025-02-20T14:07:37 IST" duration-ms="4002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:07:37 IST" name="setup" finished-at="2025-02-20T14:07:45 IST" duration-ms="7226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToMagicHealthWebsite_12()[pri:9, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:07:45 IST" name="navigateToMagicHealthWebsite_12" finished-at="2025-02-20T14:07:46 IST" duration-ms="1234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToMagicHealthWebsite_12 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:07:46 IST" name="tearDown" finished-at="2025-02-20T14:07:50 IST" duration-ms="3964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:07:50 IST" name="setup" finished-at="2025-02-20T14:07:55 IST" duration-ms="4898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToMagicAiWebsite_13()[pri:10, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:07:55 IST" name="navigateToMagicAiWebsite_13" finished-at="2025-02-20T14:07:56 IST" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToMagicAiWebsite_13 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:07:56 IST" name="tearDown" finished-at="2025-02-20T14:08:00 IST" duration-ms="3744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:08:00 IST" name="setup" finished-at="2025-02-20T14:08:04 IST" duration-ms="4520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="magicGovernVideo_15()[pri:11, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:08:04 IST" name="magicGovernVideo_15" finished-at="2025-02-20T14:08:05 IST" duration-ms="1193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- magicGovernVideo_15 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest@2766ca9d]" started-at="2025-02-20T14:08:05 IST" name="tearDown" finished-at="2025-02-20T14:08:09 IST" duration-ms="3853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- MagicWorkShopJenkins.MagicWorkShopJenkins.AppTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
